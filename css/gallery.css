@@ -1,5 +1,5 @@
 body{
-    background-image:url('media/images/backgrounds/background-1.png');
+    background-image:url('../media/images/backgrounds/background-1.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -23,7 +23,7 @@ body{
     width: 40px;
     margin-right: 0px;
     content: '';
-    background: url('media/images/icons/images.svg') no-repeat 0 0;
+    background: url('../media/images/icons/images.svg') no-repeat 0 0;
     background-size: 100%;
 }
 
@@ -44,18 +44,18 @@ body{
     transform: scale(1.25,1.25);
 }
 
-.picture:nth-child(1){background-image: url('media/images/pictures/illustration-1.png');}
-.picture:nth-child(2){background-image: url('media/images/pictures/illustration-2.png');}
-.picture:nth-child(3){background-image: url('media/images/pictures/illustration-3.png');}
-.picture:nth-child(4){background-image: url('media/images/pictures/illustration-4.png');}
-.picture:nth-child(5){background-image: url('media/images/pictures/illustration-5.png');}
-.picture:nth-child(6){background-image: url('media/images/pictures/illustration-6.png');}
-.picture:nth-child(7){background-image: url('media/images/pictures/illustration-7.png');}
-.picture:nth-child(8){background-image: url('media/images/pictures/illustration-8.png');}
-.picture:nth-child(9){background-image: url('media/images/pictures/illustration-9.png');}
-.picture:nth-child(10){background-image: url('media/images/pictures/illustration-10.png');}
-.picture:nth-child(11){background-image: url('media/images/pictures/illustration-11.png');}
-.picture:nth-child(12){background-image: url('media/images/pictures/illustration-12.png');}
+.picture:nth-child(1){background-image: url('../media/images/pictures/illustration-1.png');}
+.picture:nth-child(2){background-image: url('../media/images/pictures/illustration-2.png');}
+.picture:nth-child(3){background-image: url('../media/images/pictures/illustration-3.png');}
+.picture:nth-child(4){background-image: url('../media/images/pictures/illustration-4.png');}
+.picture:nth-child(5){background-image: url('../media/images/pictures/illustration-5.png');}
+.picture:nth-child(6){background-image: url('../media/images/pictures/illustration-6.png');}
+.picture:nth-child(7){background-image: url('../media/images/pictures/illustration-7.png');}
+.picture:nth-child(8){background-image: url('../media/images/pictures/illustration-8.png');}
+.picture:nth-child(9){background-image: url('../media/images/pictures/illustration-9.png');}
+.picture:nth-child(10){background-image: url('../media/images/pictures/illustration-10.png');}
+.picture:nth-child(11){background-image: url('../media/images/pictures/illustration-11.png');}
+.picture:nth-child(12){background-image: url('../media/images/pictures/illustration-12.png');}
 
 .picture-description{
     color: transparent;

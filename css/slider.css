@@ -24,7 +24,7 @@ body{
     min-width: 32px;
     width: 32px;
     background-color: #1c1c1c50;
-    background-image: url('media/images/icons/forward.svg');
+    background-image: url('../media/images/icons/forward.svg');
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 52;
@@ -38,7 +38,7 @@ body{
     min-width: 32px;
     width: 32px;
     background-color: #1c1c1c50;
-    background-image: url('media/images/icons/back.svg');
+    background-image: url('../media/images/icons/back.svg');
     background-repeat: no-repeat;
     background-position: center center;
     overflow: inherit;
@@ -62,17 +62,17 @@ body{
     display: flex;
     align-items: center;
 }
-.slider-image:nth-child(1){background-image: url('media/images/pictures/teachers/teacher-1.jpg');}
-.slider-image:nth-child(2){background-image: url('media/images/pictures/teachers/teacher-2.jpg');}
-.slider-image:nth-child(3){background-image: url('media/images/pictures/teachers/teacher-3.jpg');}
-.slider-image:nth-child(4){background-image: url('media/images/pictures/teachers/teacher-4.jpg');}
-.slider-image:nth-child(5){background-image: url('media/images/pictures/teachers/teacher-5.jpg');}
-.slider-image:nth-child(6){background-image: url('media/images/pictures/teachers/teacher-6.jpg');}
-.slider-image:nth-child(7){background-image: url('media/images/pictures/teachers/teacher-7.jpg');}
-.slider-image:nth-child(8){background-image: url('media/images/pictures/teachers/teacher-8.jpg');}
-.slider-image:nth-child(9){background-image: url('media/images/pictures/teachers/teacher-9.jpg');}
-.slider-image:nth-child(10){background-image: url('media/images/pictures/teachers/teacher-10.jpg');}
-.slider-image:nth-child(11){background-image: url('media/images/pictures/teachers/teacher-11.jpg');}
+.slider-image:nth-child(1){background-image: url('../media/images/pictures/teachers/teacher-1.jpg');}
+.slider-image:nth-child(2){background-image: url('../media/images/pictures/teachers/teacher-2.jpg');}
+.slider-image:nth-child(3){background-image: url('../media/images/pictures/teachers/teacher-3.jpg');}
+.slider-image:nth-child(4){background-image: url('../media/images/pictures/teachers/teacher-4.jpg');}
+.slider-image:nth-child(5){background-image: url('../media/images/pictures/teachers/teacher-5.jpg');}
+.slider-image:nth-child(6){background-image: url('../media/images/pictures/teachers/teacher-6.jpg');}
+.slider-image:nth-child(7){background-image: url('../media/images/pictures/teachers/teacher-7.jpg');}
+.slider-image:nth-child(8){background-image: url('../media/images/pictures/teachers/teacher-8.jpg');}
+.slider-image:nth-child(9){background-image: url('../media/images/pictures/teachers/teacher-9.jpg');}
+.slider-image:nth-child(10){background-image: url('../media/images/pictures/teachers/teacher-10.jpg');}
+.slider-image:nth-child(11){background-image: url('../media/images/pictures/teachers/teacher-11.jpg');}
 
 .slider-indicator{
     display: flex;

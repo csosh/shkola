@@ -1,5 +1,5 @@
 body{
-    background-image:url('media/images/backgrounds/background-1.png');
+    background-image:url('../media/images/backgrounds/background-1.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -23,7 +23,7 @@ body{
     width: 40px;
     margin-right: 0px;
     content: '';
-    background: url('media/images/icons/news.svg') no-repeat 0 0;
+    background: url('../media/images/icons/news.svg') no-repeat 0 0;
     background-size: 100%;
 }
 
