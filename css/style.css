@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #FCFCEE;
+}
+substitution-v{height: 100%;}
+substitution-h{width: 100%;}
+
+.block{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+}
+.block:nth-child(1){
+    background-image:url('/media/images/backgrounds/background-1.png');
+}
+.block:nth-child(2){
+    background-image:url('/media/images/backgrounds/background-2.png');
+}
+.block:nth-child(3){
+    background-image:url('/media/images/backgrounds/background-3.png');
+}
+.block:nth-child(4){
+    background-image:url('/media/images/backgrounds/background-4.png');
+}
+.block:nth-child(5){
+    background-image:url('/media/images/backgrounds/background-5.png');
+}
+.block:nth-child(6){
+    background-image:url('/media/images/backgrounds/background-6.png');
+}
+.block:nth-child(7){
+    background-image:url('/media/images/backgrounds/background-7.png');
+}
+.block:nth-child(8){
+    background-image:url('/media/images/backgrounds/background-8.png');
+}
+
+.mask-1{
+    mask: url('/css/filtres/mask-1.svg');
+    -webkit-mask: url('/css/filtres/mask-1.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-1.svg');
+}
+.mask-2{
+    mask: url('/css/filtres/mask-2.svg');
+    -webkit-mask: url('/css/filtres/mask-2.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-2.svg');
+}
+.mask-3{
+    mask: url('/css/filtres/mask-3.svg');
+    -webkit-mask: url('/css/filtres/mask-3.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-3.svg');
+}
+.mask-4{
+    mask: url('/css/filtres/mask-4.svg');
+    -webkit-mask: url('/css/filtres/mask-4.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-4.svg');
+}
+.mask-5{
+    mask: url('/css/filtres/mask-5.svg');
+    -webkit-mask: url('/css/filtres/mask-5.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-5.svg');
+}
+.mask-6{
+    mask: url('/css/filtres/mask-6.svg');
+    -webkit-mask: url('/css/filtres/mask-6.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-6.svg');
+}
+.mask-7{
+    mask: url('/css/filtres/mask-7.svg');
+    -webkit-mask: url('/css/filtres/mask-7.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-7.svg');
+}
+
+.bluring{
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    -moz-backdrop-filter: blur(24px);
+    -o-backdrop-filter: blur(24px);
+    -ms-backdrop-filter: blur(24px);
+}
+
+.main-hint-text{
+    align-self: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.very-big-text{font-size: 5.5vh;}
+.big-text{font-size: 4.2vh;}
+.mid-text{font-size: 3vh;}
+.normal-text{font-size: 2.2vh;}
+.small-text{font-size: 1.8vh;}
+
+.center-self{align-self: center;}
+.right-self{align-self: self-end;}
+.left-self{align-self: self-start;}
+.center-text{text-align: center;}
+.left-text{text-align: left;}
+.right-text{text-align: right;}
+.justify-text{text-align: justify;}
+
+.illustration{
+    min-width: 256px;
+    min-height: 256px;
+    width: 256px;
+    height: 256px;
+    background-size: cover;
+    background-color: #FCFCEE;
+
+}
+.illustration-1{background-image: url('/media/images/pictures/illustration-1.png')}
+.illustration-2{background-image: url('/media/images/pictures/illustration-2.png')}
+.illustration-3{background-image: url('/media/images/pictures/illustration-3.png')}
+.illustration-4{background-image: url('/media/images/pictures/illustration-4.png')}
+.illustration-5{background-image: url('/media/images/pictures/illustration-5.png')}
+.illustration-6{background-image: url('/media/images/pictures/illustration-6.png')}
+.illustration-7{background-image: url('/media/images/pictures/illustration-7.png')}
+.illustration-8{background-image: url('/media/images/pictures/illustration-8.png')}
+.illustration-9{background-image: url('/media/images/pictures/illustration-9.png')}
+.illustration-10{background-image: url('/media/images/pictures/illustration-10.png')}
+.illustration-11{background-image: url('/media/images/pictures/illustration-11.png')}
+.illustration-12{background-image: url('/media/images/pictures/illustration-12.png')}
+
+.heading{
+    display:flex;
+    padding: 8px;
+    align-items: center;
+}
+.heading:before{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    content: '';
+    background-size: 100%;
+}
+.block:nth-child(1) .illustration{
+    min-width: 256px;
+    width: 256px;
+    min-height: 256px;
+    height: 256px;
+}
+.block:nth-child(2) .heading:before{
+    background: url('/media/images/icons/hundred.svg') no-repeat 0 0;
+}
+.block:nth-child(3) .heading:before{
+    background: url('/media/images/icons/robot.svg') no-repeat 0 0;
+}
+.block:nth-child(4) .heading:before{
+    background: url('/media/images/icons/pedogoge.svg') no-repeat 0 0;
+}
+.block:nth-child(5) .heading:before{
+    background: url('/media/images/icons/ufo.svg') no-repeat 0 0;
+}
+.block:nth-child(6) .heading:before{
+    background: url('/media/images/icons/dudka.svg') no-repeat 0 0;
+}
+.block:nth-child(7) .heading:before{
+    background: url('/media/images/icons/candy.svg') no-repeat 0 0;
+}
+
+.description{
+    padding: 12px;
+    max-width: 35vw;
+}
+
+.text-with-illustration{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: #5d9b9b;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: .25s;
+}
+.button:hover{
+    background-color: #1c1c1c;
+    box-shadow: 0 0 12px #1c1c1c;
+}
+.full{
+    min-width: 100%;
+    width: 100%;
+}
+
+.palette{
+    width: 100%;
+}
+
+.qa-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-radius: 12px;
+    background-color: #1c1c1c50;
+    padding: 16px;
+    margin: 16px;
+}
+@media (min-width: 1200px) {
+    .heading{
+        padding-left: 256px;
+        padding-top: 64px;
+        font-size: 4vh;
+    }
+
+}
+@media (max-width: 600px) {
+    .text-with-illustration{
+        flex-direction: column;
+    }
+    .description{
+        max-width: 95vw;
+    }
+    .illustration{
+       min-width: 64px;
+       min-height: 64px;
+       width: 20vh;
+       height: 20vh;
+    }
+    .qa-container{
+        width: 80vw;
+    }
+}
+@media (max-width: 400px) {
+    .normal-text{
+        font-size: 1.8vh;
+    }
+}

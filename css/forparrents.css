@@ -1,0 +1,30 @@
+body{
+    background-image:url('/media/images/backgrounds/background-1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header{
+    background-color: #1c1c1c75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px;
+}
+.header:before{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 0px;
+    content: '';
+    background: url('/media/images/icons/barashka.svg') no-repeat 0 0;
+    background-size: 100%;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
