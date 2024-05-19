@@ -18,64 +18,64 @@ substitution-h{width: 100%;}
     background-size: cover;
 }
 .block:nth-child(1){
-    background-image:url('media/images/backgrounds/background-1.png');
+    background-image:url('../media/images/backgrounds/background-1.png');
 }
 .block:nth-child(2){
-    background-image:url('media/images/backgrounds/background-2.png');
+    background-image:url('../media/images/backgrounds/background-2.png');
 }
 .block:nth-child(3){
-    background-image:url('media/images/backgrounds/background-3.png');
+    background-image:url('../media/images/backgrounds/background-3.png');
 }
 .block:nth-child(4){
-    background-image:url('media/images/backgrounds/background-4.png');
+    background-image:url('../media/images/backgrounds/background-4.png');
 }
 .block:nth-child(5){
-    background-image:url('media/images/backgrounds/background-5.png');
+    background-image:url('../media/images/backgrounds/background-5.png');
 }
 .block:nth-child(6){
-    background-image:url('media/images/backgrounds/background-6.png');
+    background-image:url('../media/images/backgrounds/background-6.png');
 }
 .block:nth-child(7){
-    background-image:url('media/images/backgrounds/background-7.png');
+    background-image:url('../media/images/backgrounds/background-7.png');
 }
 .block:nth-child(8){
-    background-image:url('media/images/backgrounds/background-8.png');
+    background-image:url('../media/images/backgrounds/background-8.png');
 }
 
 .mask-1{
-    mask: url('css/filtres/mask-1.svg');
-    -webkit-mask: url('css/filtres/mask-1.svg');
-    -moz-webkit-mask: url('css/filtres/mask-1.svg');
+    mask: url('../css/filtres/mask-1.svg');
+    -webkit-mask: url('../css/filtres/mask-1.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-1.svg');
 }
 .mask-2{
-    mask: url('css/filtres/mask-2.svg');
-    -webkit-mask: url('css/filtres/mask-2.svg');
-    -moz-webkit-mask: url('css/filtres/mask-2.svg');
+    mask: url('../css/filtres/mask-2.svg');
+    -webkit-mask: url('../css/filtres/mask-2.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-2.svg');
 }
 .mask-3{
-    mask: url('css/filtres/mask-3.svg');
-    -webkit-mask: url('css/filtres/mask-3.svg');
-    -moz-webkit-mask: url('css/filtres/mask-3.svg');
+    mask: url('../css/filtres/mask-3.svg');
+    -webkit-mask: url('../css/filtres/mask-3.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-3.svg');
 }
 .mask-4{
-    mask: url('css/filtres/mask-4.svg');
-    -webkit-mask: url('css/filtres/mask-4.svg');
-    -moz-webkit-mask: url('css/filtres/mask-4.svg');
+    mask: url('../css/filtres/mask-4.svg');
+    -webkit-mask: url('../css/filtres/mask-4.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-4.svg');
 }
 .mask-5{
-    mask: url('css/filtres/mask-5.svg');
-    -webkit-mask: url('css/filtres/mask-5.svg');
-    -moz-webkit-mask: url('css/filtres/mask-5.svg');
+    mask: url('../css/filtres/mask-5.svg');
+    -webkit-mask: url('../css/filtres/mask-5.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-5.svg');
 }
 .mask-6{
-    mask: url('css/filtres/mask-6.svg');
-    -webkit-mask: url('css/filtres/mask-6.svg');
-    -moz-webkit-mask: url('css/filtres/mask-6.svg');
+    mask: url('../css/filtres/mask-6.svg');
+    -webkit-mask: url('../css/filtres/mask-6.svg');
+    -moz-webkit-mask: url('../css/filtres/mask-6.svg');
 }
 .mask-7{
-    mask: url('css/filtres/mask-7.svg');
-    -webkit-mask: url('css/filtres/mask-7.svg');
-    -moz-webkit-mask: url('css/filtres/mask-7.svg');
+    mask: url('/css/filtres/mask-7.svg');
+    -webkit-mask: url('/css/filtres/mask-7.svg');
+    -moz-webkit-mask: url('/css/filtres/mask-7.svg');
 }
 
 .bluring{
@@ -114,18 +114,18 @@ substitution-h{width: 100%;}
     background-color: #FCFCEE;
 
 }
-.illustration-1{background-image: url('media/images/pictures/illustration-1.png')}
-.illustration-2{background-image: url('media/images/pictures/illustration-2.png')}
-.illustration-3{background-image: url('media/images/pictures/illustration-3.png')}
-.illustration-4{background-image: url('media/images/pictures/illustration-4.png')}
-.illustration-5{background-image: url('media/images/pictures/illustration-5.png')}
-.illustration-6{background-image: url('media/images/pictures/illustration-6.png')}
-.illustration-7{background-image: url('media/images/pictures/illustration-7.png')}
-.illustration-8{background-image: url('media/images/pictures/illustration-8.png')}
-.illustration-9{background-image: url('media/images/pictures/illustration-9.png')}
-.illustration-10{background-image: url('media/images/pictures/illustration-10.png')}
-.illustration-11{background-image: url('media/images/pictures/illustration-11.png')}
-.illustration-12{background-image: url('media/images/pictures/illustration-12.png')}
+.illustration-1{background-image: url('../media/images/pictures/illustration-1.png')}
+.illustration-2{background-image: url('../media/images/pictures/illustration-2.png')}
+.illustration-3{background-image: url('../media/images/pictures/illustration-3.png')}
+.illustration-4{background-image: url('../media/images/pictures/illustration-4.png')}
+.illustration-5{background-image: url('../media/images/pictures/illustration-5.png')}
+.illustration-6{background-image: url('../media/images/pictures/illustration-6.png')}
+.illustration-7{background-image: url('../media/images/pictures/illustration-7.png')}
+.illustration-8{background-image: url('../media/images/pictures/illustration-8.png')}
+.illustration-9{background-image: url('../media/images/pictures/illustration-9.png')}
+.illustration-10{background-image: url('../media/images/pictures/illustration-10.png')}
+.illustration-11{background-image: url('../media/images/pictures/illustration-11.png')}
+.illustration-12{background-image: url('../media/images/pictures/illustration-12.png')}
 
 .heading{
     display:flex;
@@ -147,22 +147,22 @@ substitution-h{width: 100%;}
     height: 256px;
 }
 .block:nth-child(2) .heading:before{
-    background: url('media/images/icons/hundred.svg') no-repeat 0 0;
+    background: url('/media/images/icons/hundred.svg') no-repeat 0 0;
 }
 .block:nth-child(3) .heading:before{
-    background: url('media/images/icons/robot.svg') no-repeat 0 0;
+    background: url('/media/images/icons/robot.svg') no-repeat 0 0;
 }
 .block:nth-child(4) .heading:before{
-    background: url('media/images/icons/pedogoge.svg') no-repeat 0 0;
+    background: url('/media/images/icons/pedogoge.svg') no-repeat 0 0;
 }
 .block:nth-child(5) .heading:before{
-    background: url('media/images/icons/ufo.svg') no-repeat 0 0;
+    background: url('/media/images/icons/ufo.svg') no-repeat 0 0;
 }
 .block:nth-child(6) .heading:before{
-    background: url('media/images/icons/dudka.svg') no-repeat 0 0;
+    background: url('/media/images/icons/dudka.svg') no-repeat 0 0;
 }
 .block:nth-child(7) .heading:before{
-    background: url('media/images/icons/candy.svg') no-repeat 0 0;
+    background: url('/media/images/icons/candy.svg') no-repeat 0 0;
 }
 
 .description{
